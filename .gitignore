@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+vertice.db
+__pycache__/
+*.py[cod]

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b13">
+  <meta name="description" content="Tecnologia, cabos e equipamentos para seu espaço. Vértice Logística & Varejo.">
+  <title>Vértice — Tecnologia no seu ritmo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Tecnologia que conecta. Entrega com cuidado. <span>›</span> Frete calculado no checkout</div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Vértice, página inicial">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-name">VÉRTICE<small>LOGÍSTICA &amp; VAREJO</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="/#produtos">Produtos</a>
+      <a href="/#categorias">Categorias</a>
+      <a href="/#sobre">Sobre nós</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-link track-link" href="/#rastrear" aria-label="Acompanhar pedido" title="Acompanhar pedido"><span aria-hidden="true">⌖</span></a>
+      <a class="icon-link company-link" href="/empresa" aria-label="Área da empresa" title="Área da empresa"><span aria-hidden="true">▤</span></a>
+      <button class="cart-button" type="button" data-open-cart aria-label="Abrir carrinho">
+        <span class="cart-glyph" aria-hidden="true">▱</span><span class="cart-label">Carrinho</span><span class="cart-count" data-cart-count>0</span>
+      </button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"><div class="loading-state">Preparando sua experiência<span>...</span></div></main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="/">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-name">VÉRTICE<small>LOGÍSTICA &amp; VAREJO</small></span>
+    </a>
+    <p>Conectando você ao que move o seu dia.</p>
+    <span>© 2026 Vértice Logística &amp; Varejo</span>
+  </footer>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="overlay" data-overlay hidden></div>
+  <aside class="cart-drawer" data-cart-drawer aria-label="Seu carrinho" aria-hidden="true"></aside>
+  <dialog class="checkout-dialog" data-checkout aria-labelledby="checkout-title"></dialog>
+</body>
+</html>
